@@ -1,4 +1,3 @@
-package groupPoints.gitHub;
 
 public class Solution {
 
