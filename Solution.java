@@ -1,6 +1,14 @@
+package groupPoints.gitHub;
 
 public class Solution {
 
+  /*
+  By the problem design on binarysearch.com, we have to work
+  around the given method 'public int solve(int[][] points, int k)'
+  so that the code can be run on the website. Even though the name 'solve'
+  does not make a lot of sense, it is left as it is, so that the code can
+  be run directly on the website, without any modifications.
+  */
   public int solve(int[][] points, int k) {
     return findTotalGroupsOfPoints(points, k);
   }
